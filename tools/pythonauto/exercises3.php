@@ -594,7 +594,7 @@ else:
     elif oper == "-":
         apot = num1 - num2
     else:
-        apot = mun1 * num2
+        apot = num1 * num2
     print (num1, oper, num2, "=", apot)
 ',
 "checks" => Array(
