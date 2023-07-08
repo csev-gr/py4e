@@ -575,7 +575,7 @@ for key, val in lst :
 num2 = input("Δεύτερος Αριθμός:")
 oper = input("Σύμβολο Πράξης:")
 
-print num1, oper, num2, '=', apot
+print num1, oper, num2, "=", apot
 
 ',
 "xcode" => 'num1 = int(input("Πρώτος Αριθμός:"))
@@ -585,17 +585,17 @@ while oper not in ['+','-','*','/']: oper = str(input("Σύμβολο Πράξη
 if oper = '/':
     if num2 != 0:
         apot = num1 / num2
-        print num1, oper, num2, '=', apot
+        print num1, oper, num2, "=", apot
     else:
         print("Μη αποδεκτές τιμές")
 else:
-    if oper == '+':
+    if oper == "+":
         apot = num1 + num2
-    elif oper == '-':
+    elif oper == "-":
         apot = num1 - num2
     else:
         apot = mun1 * num2
-    print num1, oper, num2, '=', apot
+    print num1, oper, num2, "=", apot
 ',
 "checks" => Array(
 "while" => "Πρέπει να χρησιμοποιήσετε ένα βρόχο while για να διασφαλήσετε ότι δίνεται σωστός τελεστής πράξης.",
