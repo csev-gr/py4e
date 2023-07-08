@@ -582,10 +582,10 @@ print num1, oper, num2, "=", apot
 num2 = int(input("Δεύτερος Αριθμός:"))
 oper = str(input("Σύμβολο Πράξης:"))
 while oper not in ["+","-","*","/"]: oper = str(input("Σύμβολο Πράξης:"))
-if oper = "/":
+if oper == "/":
     if num2 != 0:
         apot = num1 / num2
-        print num1, oper, num2, "=", apot
+        print (num1, oper, num2, "=", apot)
     else:
         print("Μη αποδεκτές τιμές")
 else:
@@ -595,7 +595,7 @@ else:
         apot = num1 - num2
     else:
         apot = mun1 * num2
-    print num1, oper, num2, "=", apot
+    print (num1, oper, num2, "=", apot)
 ',
 "checks" => Array(
 "while" => "Πρέπει να χρησιμοποιήσετε ένα βρόχο while για να διασφαλήσετε ότι δίνεται σωστός τελεστής πράξης.",
