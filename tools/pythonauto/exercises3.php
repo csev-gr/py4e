@@ -589,9 +589,9 @@ if oper = '/':
     else:
         print("Μη αποδεκτές τιμές")
 else:
-    if oper = '+':
+    if oper == '+':
         apot = num1 + num2
-    elif oper = '-':
+    elif oper == '-':
         apot = num1 - num2
     else:
         apot = mun1 * num2
