@@ -581,7 +581,7 @@ print num1, oper, num2, "=", apot
 "xcode" => 'num1 = int(input("Πρώτος Αριθμός:"))
 num2 = int(input("Δεύτερος Αριθμός:"))
 oper = str(input("Σύμβολο Πράξης:"))
-while oper not in ['+','-','*','/']: oper = str(input("Σύμβολο Πράξης:"))
+while oper not in ["+","-","*","/"]: oper = str(input("Σύμβολο Πράξης:"))
 if oper = '/':
     if num2 != 0:
         apot = num1 / num2
