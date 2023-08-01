@@ -1,0 +1,124 @@
+::Ερώτηση 1 - multiple choice, shuffle::[html]
+Σε τι διαφέρουν οι μεταβλητές "συλλογών" από τις απλές μεταβλητές;
+{
+= Οι μεταβλητές συλλογών μπορούν να αποθηκεύσουν πολλές τιμές σε μία μεταβλητή
+~ Οι μεταβλητές συλλογών συγχωνεύουν ροές εξόδου σε μια ενιαία ροή
+~ Οι μεταβλητές συλλογών μπορούν να αποθηκεύσουν μόνο μία τιμή
+~ Οι μεταβλητές συλλογών μπορούν να αντλήσουν πολλά έγγραφα δικτύου ταυτόχρονα
+}
+
+::Ερώτηση 2 - multiple choice, shuffle::[html]
+Ποιες είναι οι δεσμευμένες λέξεις της Python, που χρησιμοποιούνται για τη δημιουργία βρόχου που διατρέχει μία λίστα;
+{
+= for / in
+~ foreach / in
+~ def / return
+~ try / except
+}
+
+::Ερώτηση 3 - multiple choice, shuffle::[html]
+Πως θα εκτυπώσετε την τιμή 'Sally' της επόμενης λίστας;
+<pre>
+friends = [ 'Joseph', 'Glenn', 'Sally' ]
+</pre>
+{
+= print(friends[2])
+~ print friends[3]
+~ print(friends[2:1])
+~ print(friends['Sally'])
+}
+
+::Ερώτηση 4 - multiple choice, shuffle::[html]
+Τι θα εκτυπώσει ο ακόλουθος κώδικας Python;
+<pre>
+fruit = 'Banana'
+fruit[0] = 'b'
+print(fruit)
+</pre>
+{
+= Δεν θα εκτυπωθεί τίποτα - το πρόγραμμα αποτυγχάνει με ένα traceback error
+~ Banana
+~ banana
+~ b
+~ B
+~ [0]
+}
+
+::Ερώτηση 5 - multiple choice, shuffle::[html]
+Ποια από τις επόμενες δηλώσεις Python θα εκτυπώσει το μήκος της λίστας, που είναι αποθηκευμένη στη μεταβλητή data;
+{
+= print(len(data))
+~ print(strlen(data))
+~ print(data.length())
+~ print(data.length)
+~ print(length(data))
+~ print(data.Len)
+}
+
+::Ερώτηση 6 - multiple choice, shuffle::[html]
+Τί τύπου δεδομένα παράγονται όταν καλείτε τη συνάρτηση range();
+<pre>
+x = list(range(5))
+</pre>
+{
+= A list of integers
+~ A string
+~ A list of characters
+~ A list of words
+~ A boolean (true/false) value
+}
+
+::Ερώτηση 7 - multiple choice, shuffle::[html]
+Τι θα εκτυπώσει ο ακόλουθος κώδικας Python;
+<pre>
+a = [1, 2, 3]
+b = [4, 5, 6]
+c = a + b
+print(len(c))
+</pre>
+{
+= 6
+~ [1, 2, 3, 4, 5, 6]
+~ 21
+~ [1, 2, 3]
+~ [4, 5, 6]
+~ 15
+}
+
+::Ερώτηση 8 - multiple choice, shuffle::[html]
+Ποιος από τους ακόλουθους τελεστές διαμέρισης θα παράξει την λίστα [12, 3];
+<pre>
+t = [9, 41, 12, 3, 74, 15]
+</pre>
+{
+= t[2:4]
+~ t[1:3]
+~ t[:]
+~ t[12:3]
+~ t[2:2]
+}
+
+::Ερώτηση 9 - multiple choice, shuffle::[html]
+Ποια από τις μεθόδους λίστας προσθέτει ένα νέο στοιχείο στο τέλος μίας υπάρχουσας λίστας;
+{
+= append()
+~ pop()
+~ push()
+~ index()
+~ add()
+~ forward()
+}
+
+::Ερώτηση 10 - multiple choice, shuffle::[html]
+Τι θα εκτυπώσει ο ακόλουθος κώδικας Python;
+<pre>
+friends = [ 'Joseph', 'Glenn', 'Sally' ]
+friends.sort()
+print(friends[0])
+</pre>
+{
+= Glenn
+~ Sally
+~ Joseph
+~ friends
+}
